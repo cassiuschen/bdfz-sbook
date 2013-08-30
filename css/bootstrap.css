@@ -305,7 +305,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #fbfdff;
 }
 
 input,
@@ -2080,9 +2080,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-  color: #ffffff;
-  background-color: #428bca;
-  border-color: #357ebd;
+  color: #fbfdff;
+  background-color: #68e;
+  border-color: #3A65E9;
 }
 
 .btn-primary:hover,
