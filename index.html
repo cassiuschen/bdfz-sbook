@@ -65,13 +65,13 @@
           <a href="./index_html/touch.html">手册内容</a>
         </li>
         <li>
-          <a href="#not-open" data-toggle="modal" data-target="#not-open" >问题咨询</a>
+          <a href="#not-open" data-toggle="modal" data-target="#not-have" >问题咨询</a>
         </li>
         <li>
           <a href="./index_html/sub.html">勘误提交</a>
         </li>
         <li>
-          <a href="#not-open" data-toggle="modal" data-target="#not-open">关于</a>
+          <a href="./index_html/about.html">关于</a>
         </li>
       </ul>
     </nav>
@@ -95,7 +95,7 @@
 
     <footer class="container" role="contentinfo">
         <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-12">
         
       <ul class="bs-masthead-links">
         <li class="current-version">
@@ -110,31 +110,26 @@
         </li>
           <li><a href="http://yxtimes.org/">银杏时报</a></li>
         <li>
-          <a data-toggle="modal" href="#not-open">北附人BDFZer™</a>
+          <a data-toggle="modal" href="http://bdfzer.com">北附人BDFZer™</a>
         </li>
-        <li><a data-toggle="modal" href="http://www.thecmw.cn/">创意媒体工作室</a></li></ul></div><div class="col-md-4"><p>开发进度 - 93%</p>
-            <div class="progress progress-striped active">
-  <div class="progress-bar progress-bar-info"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 93%">
-    <span class="sr-only">83% Complete</span>
-  </div>
-</div></div></div>
+        <li><a data-toggle="modal" href="http://www.thecmw.cn/">创意媒体工作室</a></li></ul></div>
+</div>
           
        
     </footer>
       
-      
-      
+        
     <!-- Windows only. -->
-      <!-- Modal GET IN-->
-  <div class="modal fade" id="get-in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <!-- Modal CAL-->
+  <div class="modal fade" id="cal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4 style="color:black" class="modal-title"><strong>加入创媒™</strong></h4>
+          <h4 style="color:black" class="modal-title"><strong>校历</strong></h4>
         </div>
         <div class="modal-body">
-          <p style="color:black">目前还未进入招新时段，请等候系统开放。</p>
+          <iframe frameborder="0" height="600" scrolling="no" src="https://www.google.com/calendar/embed?src=b9ikjkr8lhfofohg46so14da7o%40group.calendar.google.com&amp;ctz=Asia/Chongqing" style="border: 0" width="520"></iframe>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-primary" data-dismiss="modal">知道了！</button>
@@ -162,27 +157,44 @@
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
       
+      <!-- Modal NOT-have-->
+  <div class="modal fade" id="not-have" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 style="color:black" class="modal-title"><strong>抱歉！</strong></h4>
+        </div>
+        <div class="modal-body">
+          <p style="color:black">抱歉！该服务在静态站点暂不开放，请见谅！</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">知道了！</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
     <!-- JS and analytics only. -->
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.js"></script>
-
-<script src="js/holder.js"></script>
-
-<script src="js/application.js"></script>
-      
-      <style>
+ 
+<style>
         body {
             font-family: "Hiragino Sans GB W3";
-            src: url("fonts/H.otf");
-            src: local("☺"), url("fonts/H.otf") format("otf");
             font-weight: normal;
             font-style: normal;
             }
 
       </style>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+<script src="../js/holder.js"></script>
+
+<script src="../js/application.js"></script>
+
 
 </body></html>
+
